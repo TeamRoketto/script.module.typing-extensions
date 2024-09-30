@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="script.module.typing-extensions" name="Typing Extensions" version="4.12.2" provider-name="Team Roketto">
+	<requires>
+		<import addon="xbmc.python" version="3.0.0"/>
+	</requires>
+	<extension point="xbmc.python.module" library="resources/lib/typing_extensions/src"/>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en_GB">Backported and Experimental Type Hints for Python 3.8+</summary>
+		<description lang="en_GB">typing_extensions complements the standard-library typing module, providing runtime support for type hints as specified by PEP 484 and subsequent PEPs.</description>
+		<platform>all</platform>
+		<assets>
+			<icon>icon.png</icon>
+		</assets>
+	</extension>
+</addon>
